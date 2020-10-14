@@ -3,7 +3,6 @@ import re
 from docx2pdf import convert
 import shutil
 list1 = []
-
 zip_file = re.compile(r'.+\.zip')
 for path,folders,files1 in os.walk('./'):
     for files in files1:
